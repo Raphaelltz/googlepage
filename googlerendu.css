@@ -1,0 +1,130 @@
+body
+{font-family: 'arial';
+font-size: 14px;}
+
+a:hover{text-decoration:underline;}
+
+a, div, .apps, .france
+{text-decoration: none;
+ color: #6F6F6F;}
+
+
+ ul
+ {display: flex;
+ justify-content: flex-end;
+ margin-top: 30px;
+list-style: none;}
+
+
+
+.gmail, .images, .apps, .connexion
+ {padding-right: 15px;
+ 	font-size: small;}
+
+.gmail,.images,.apps
+{color: #222222;}
+
+.gmail:hover{color:#6F6F6F;}
+.images:hover{color:#6F6F6F;}
+
+.connexion
+ {border: 1px solid #4285F4;
+ background-color: #4587FB;
+ color: white;
+ font-weight: bold;
+ margin-left: 5px; 
+ line-height: 28px;
+ padding: 12px; 
+ border-radius: 2px;}
+
+.connexion:hover{text-decoration: none;}
+
+.logo
+{display: block;
+margin-left: auto;
+margin-right: auto;
+padding-top: 50px;
+width: 500px;
+height: 201px;}
+
+.searchbar
+{display: flex;
+justify-content: center;
+}
+
+input
+{border-radius: 24px;
+width: 600px;
+height:50px;}
+
+.boutons
+{display: flex;
+justify-content: center;
+font-size: small;
+padding-top: 15px;}
+
+.recherche:hover{text-decoration: none;}
+.chance:hover{text-decoration: none;}
+
+.recherche
+{margin-right:10px; 
+padding: 16px; 
+margin-right: 4px;
+margin-left: 4px;
+margin-top: 11px;
+margin-bottom: 11px;
+border: 1px solid #f2f2f2;
+background-color: #F2F2F2;
+color: #5F6368;
+border-radius: 4px;}
+
+.chance
+{margin-right:10px; 
+padding: 16px; 
+margin-right: 4px;
+margin-left: 4px;
+margin-top: 11px;
+margin-bottom: 11px;
+border: 1px solid #f2f2f2;
+background-color: #F2F2F2;
+color: #5F6368;
+border-radius:4px;}
+
+
+footer
+{display: flex;
+background-color: #F2F2F2;
+margin-top: 200px;
+padding-bottom: 200px;
+flex-direction: column;}
+
+
+.france
+{text-align: left;
+margin-left: 30px;
+text-height: 40px;
+font-size:15px;}
+
+.foot2
+{margin-top: 5px;}
+
+.footgauche
+{display:flex;
+float: left;
+margin-left: 30px;}
+
+.Confidentialité, .Cond, .Paramètres
+{margin-left:27px;}
+
+
+.footdroite
+{display:flex;
+float: right;}
+
+.Entreprise, .propos, .CflrG
+{margin-left: 27px; }
+
+
+
+
+
